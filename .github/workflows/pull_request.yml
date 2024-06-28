@@ -3,7 +3,7 @@ name: CI for Pull Requests to Development
 on:
   pull_request:
     branches:
-      - development
+      - test
 
 jobs:
   build:
